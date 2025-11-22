@@ -1,0 +1,18 @@
+gsap.from("#img1",{
+    y:60,
+    duration:.8,
+    delay:.5,
+    opacity:0,
+})
+gsap.from("#img2",{
+    x:60,
+    opacity:0,
+    duration:1,
+    delay:.7
+})
+gsap.from("#img3",{
+    y:-50,
+    opacity:0,
+    duration:1,
+    delay:.7
+})

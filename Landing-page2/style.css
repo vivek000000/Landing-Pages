@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    position: relative;
+}
+#right{
+    height: 100%;
+    width: 60%;
+    /* background-color: yellow; */
+}
+#right1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+#right2{
+    height: 50%;
+    width: 100%;
+   background-image: url(https://plus.unsplash.com/premium_photo-1676064229129-fd2be05b9daf?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-position: center;
+   background-size: cover;
+}
+#right1-column1{
+    height: 100%;
+    width: 55%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675667408018-3b64dbc55db1?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#right1-column2{
+    height: 100%;
+    width: 45%;
+    background-image: url(https://images.unsplash.com/photo-1609424572698-04d9d2e04954?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+#navr a{
+    margin-right: 20px ;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+#navr i{
+    color: blue;
+}
+#textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+}
+#textcenter p{
+    padding-top: 12px ;
+    padding-bottom: 15px;
+    opacity: .8;
+}
+#textcenter a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(16, 14, 14);
+    padding-bottom: 5px;
+    font-size: 12px;
+    opacity: .6;
+    font-weight: 600;
+}
+#textcenter h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+@media(max-width:500px){
+#main{
+    flex-direction: column;
+}
+#main #left{
+    width: 100%;
+}
+#main #right{
+    width: 100%;
+}
+}
